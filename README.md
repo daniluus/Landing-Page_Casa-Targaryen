@@ -4,7 +4,7 @@
   <img width="650px" src="https://user-images.githubusercontent.com/55250414/148111285-311f05ec-260a-42ad-ba55-1bbbaf15c4b4.png" alt="calculator review">
   
   <label>Preview do site:</label>
-  <a href="https://daniluus.github.io/Landing-Page_Casa-Targaryen/" />Landing Page Casa Targaryen</a>
+  <a href="https://daniluus.github.io/Landing-Page_Casa-Targaryen/" target="_blank" />Landing Page Casa Targaryen</a>
 </div>
 
 ## O Projeto
