@@ -7,7 +7,7 @@
   <a href="https://daniluus.github.io/Landing-Page_Casa-Targaryen/" />Landing Page Casa Targaryen</a>
 </div>
 
-### O Projeto
+## O Projeto
 O projeto consiste em uma Landing Page que conta a história sobre a Casa Targaryen da série Game of Thrones.
 
 ## 💻 Requisitos
