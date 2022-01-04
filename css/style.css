@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;700;900&family=Darker+Grotesque:wght@300;400;700;900&family=Della+Respira&family=Lalezar&display=swap');
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     background: linear-gradient(144.35deg, #4B0000, 21.8%, #000 68.28%);
 }
@@ -25,7 +29,9 @@ header img{
 nav{
     display: flex;
     flex-wrap: wrap;
-    gap: 2em;
+    gap: 10px;
+
+    justify-content: flex-start;
 }
 
 nav a{
@@ -38,6 +44,15 @@ nav a{
     background: linear-gradient(180deg, #7E0202 0%, rgba(126, 2, 2, 0) 100%);
     filter: drop-shadow(0 10px 4px rgba(0, 0, 0, 0.25));
     border-radius: 10px;
+
+    transition: .5s ease;
+}
+
+nav a:hover{
+    background: none;
+    border-bottom: 1px solid #fff;
+
+    border-radius: 0;
 }
 
 
@@ -97,6 +112,15 @@ main{
     border-radius: 10px;
 
     margin: auto;
+
+    transition: .5s ease;
+}
+
+.content-text button:hover{
+    background: none;
+    border-bottom: 1px solid #fff;
+
+    border-radius: 0;
 }
 
 /*--- LOGO ---*/
@@ -242,7 +266,7 @@ strong{
 footer{
     border-top: 1px solid #fff;
 
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 footer h2{
@@ -253,4 +277,35 @@ footer h2{
     text-align: center;
 
     padding: 30px;
+}
+
+/*----- ANIMATIONS -----*/
+
+.reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: all 2s ease;
+}
+
+.active{
+    transform: translateY(0px);
+    opacity: 1;
+}
+
+.btn-top{
+    font-family: 'Della Respira', serif;
+    width: 100px;
+    height: 50px;
+
+    margin: 100px 0 0 20px;
+    
+    font-size: 1.2em;
+    color: #fff;
+
+    background: linear-gradient(180deg, #7E0202 0%, rgba(126, 2, 2, 0) 100%);
+    filter: drop-shadow(0 10px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 10px;
+
+    cursor: pointer;
 }
