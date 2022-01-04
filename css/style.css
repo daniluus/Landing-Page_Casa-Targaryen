@@ -100,7 +100,7 @@ main{
     letter-spacing: 0.09em;
 }
 
-.content-text button{
+.content-text a{
     font-family: 'Della Respira', serif;
     width: 180px;
     height: 50px;
